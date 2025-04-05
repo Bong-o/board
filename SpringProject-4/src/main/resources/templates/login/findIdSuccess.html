@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="../css/loginin.css">
+</head>
+<body>
+    <div th:replace="~{fragments/common/header :: HeaderFragment}"></div>
+    <main>
+        <h2>회원님의 아이디를 확인해주세요</h2>
+        <form action="/game/loginin" method="POST">
+            <div class="form_list">
+                <div class="form_group">
+                    <div class="form_item">
+                    	<h4>
+                    		회원님의 아이디는 없습니다. 꺼지셈
+							ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ	
+                    	</h4>
+                        <!-- <input type="text" id="name" name="userName" placeholder="이름"> -->
+                    </div>
+                </div>
+                <div class="button_div">
+                    <button type="submit" id='submitButton'>비밀번호 찾기</button>
+                </div>
+                <div class="form_footer">
+                    <a th:href="@{/game/logininForm}">로그인</a>
+                    <span>|</span>
+                    <a th:href="@{/game/loginupForm}">회원가입</a>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer th:replace="~{fragments/common/footer :: FooterFragment}"></footer>
+</body>
+</html>

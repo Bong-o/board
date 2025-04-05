@@ -1,0 +1,29 @@
+[2025-02-11 17:28:35.468]  INFO 7724 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2025-02-11 17:28:35.475]  INFO 7724 --- [     Thread-103] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+[2025-02-11 17:28:35.476]  INFO 7724 --- [tomcat-shutdown] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[2025-02-11 17:28:35.568]  INFO 7724 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+[2025-02-11 17:28:35.568]  INFO 7724 --- [     Thread-103] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[2025-02-11 17:28:35.571]  INFO 7724 --- [     Thread-103] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown initiated...
+[2025-02-11 17:28:35.579]  INFO 7724 --- [     Thread-103] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown completed.
+[2025-02-11 17:28:35.624]  INFO 7724 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 시작중입니다.
+[2025-02-11 17:28:35.660]  INFO 7724 --- [  restartedMain] k.c.g.SpringProject4Application          : Starting SpringProject4Application using Java 17.0.12 with PID 7724 (C:\Dev\spring_work_sapce\SpringProject-4\bin\main started by GR802 in C:\Dev\spring_work_sapce\SpringProject-4)
+[2025-02-11 17:28:35.660]  INFO 7724 --- [  restartedMain] k.c.g.SpringProject4Application          : No active profile set, falling back to 1 default profile: "default"
+[2025-02-11 17:28:35.898]  INFO 7724 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+[2025-02-11 17:28:35.899]  INFO 7724 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[2025-02-11 17:28:35.900]  INFO 7724 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[2025-02-11 17:28:35.900]  INFO 7724 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-02-11 17:28:35.913]  INFO 7724 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[2025-02-11 17:28:35.914]  INFO 7724 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 252 ms
+[2025-02-11 17:28:35.988]  WARN 7724 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 68a96b87-cf71-42c2-9b36-169a27e43d1f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-02-11 17:28:35.988]  INFO 7724 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-02-11 17:28:36.091]  INFO 7724 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[2025-02-11 17:28:36.098]  INFO 7724 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[2025-02-11 17:28:36.101]  INFO 7724 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+[2025-02-11 17:28:36.106]  INFO 7724 --- [  restartedMain] k.c.g.SpringProject4Application          : Started SpringProject4Application in 0.479 seconds (process running for 1298.141)
+[2025-02-11 17:28:36.107]  INFO 7724 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+[2025-02-11 17:28:36.107]  INFO 7724 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 성공적으로 시작되었습니다.

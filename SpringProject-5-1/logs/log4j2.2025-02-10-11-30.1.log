@@ -1,0 +1,5 @@
+[2025-02-10 11:30:57.937]  INFO 15200 --- [n(40)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2025-02-10 11:30:57.939]  INFO 15200 --- [n(40)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+[2025-02-10 11:30:57.940]  INFO 15200 --- [tomcat-shutdown] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[2025-02-10 11:30:58.000]  INFO 15200 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+[2025-02-10 11:30:58.001]  INFO 15200 --- [n(40)-127.0.0.1] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]

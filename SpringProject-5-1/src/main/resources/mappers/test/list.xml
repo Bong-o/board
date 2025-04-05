@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="kr.co.green.test.mapper.TestMapper">
+	
+	<!-- <resultMap id="testResultMap" type="kr.co.green.test.dto.TestDTO">
+		<result property="id" column="ID"></result>
+		<result property="title" column="title"></result>
+		<result property="author" column="author"></result>
+		<result property="createdDate" column="created_date"></result>
+	</resultMap> -->
+	
+	
+	<!-- <select id="getAllPosts" resultMap="testResultMap">
+		SELECT * FROM (SELECT it, title, author, create_date, 
+					   ROW_NUMBER () OVER (ORDER BY created_date DESC) AS rn
+		FROM posts_test)
+		WHERE rn BETWEEN #{tp.offset} AND #{tp.limit}
+	</select> -->
+	
+	<!-- 총 게시글 수 -->
+	<select id="getTotalCount" resultType="int">
+		SELECT COUNT(*) FROM posts_test
+	</select>
+	
+	<select id="getAllPosts">
+		SELECT * FROM (SELECT id,
+			   				  title,
+			   				  author,
+			   			      created_date AS createdDate,
+			   				  ROW_NUMBER() OVER (ORDER BY created_date DESC) AS rn
+						FROM posts_test)
+		WHERE rn BETWEEN #{offset} AND #{limit} 
+	</select>
+	
+	
+</mapper>

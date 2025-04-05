@@ -1,0 +1,35 @@
+[2025-02-11 16:38:24.816]  INFO 6136 --- [n(10)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor        : Shutdown phase 2147482623 ends with 1 bean still running after timeout of 30000ms: [webServerGracefulShutdown]
+[2025-02-11 16:38:24.819]  INFO 6136 --- [n(10)-127.0.0.1] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:38:24.825]  INFO 6136 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown aborted with one or more requests still active
+[2025-02-11 16:38:29.834]  WARN 6136 --- [n(10)-127.0.0.1] o.a.t.u.n.NioEndpoint                    : The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+[2025-02-11 16:38:29.839]  INFO 6136 --- [n(10)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+[2025-02-11 16:38:29.870]  INFO 6136 --- [n(10)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+[2025-02-11 16:38:52.016]  INFO ${sys:PID} --- [           main] k.c.g.SpringProject4Application          : 스프링 프로젝트가 시작중입니다.
+[2025-02-11 16:38:52.131]  INFO ${sys:PID} --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 시작중입니다.
+[2025-02-11 16:38:52.408]  INFO 9436 --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.2.Final
+[2025-02-11 16:38:52.451]  INFO 9436 --- [  restartedMain] k.c.g.SpringProject4Application          : Starting SpringProject4Application using Java 17.0.12 with PID 9436 (C:\Dev\spring_work_sapce\SpringProject-4\bin\main started by GR802 in C:\Dev\spring_work_sapce\SpringProject-4)
+[2025-02-11 16:38:52.454]  INFO 9436 --- [  restartedMain] k.c.g.SpringProject4Application          : No active profile set, falling back to 1 default profile: "default"
+[2025-02-11 16:38:52.495]  INFO 9436 --- [  restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in C:\Users\GR802\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\23.3.0.23.09\405bcbc8d8dab59f562125fa1d2b7e06d21649f3\ojdbc11-23.3.0.23.09.jar referenced one or more files that do not exist: file:/C:/Users/GR802/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/23.3.0.23.09/405bcbc8d8dab59f562125fa1d2b7e06d21649f3/oraclepki.jar
+[2025-02-11 16:38:52.495]  INFO 9436 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-02-11 16:38:52.495]  INFO 9436 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-02-11 16:38:53.546]  INFO 9436 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+[2025-02-11 16:38:53.559]  INFO 9436 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:38:53.561]  INFO 9436 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[2025-02-11 16:38:53.561]  INFO 9436 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-02-11 16:38:53.611]  INFO 9436 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[2025-02-11 16:38:53.611]  INFO 9436 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1115 ms
+[2025-02-11 16:38:53.981]  WARN 9436 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 31d03fe3-aaec-454b-8c86-094d9beda0cf
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-02-11 16:38:53.988]  INFO 9436 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-02-11 16:38:54.413]  INFO 9436 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[2025-02-11 16:38:54.432]  INFO 9436 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:38:54.449]  INFO 9436 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+[2025-02-11 16:38:54.461]  INFO 9436 --- [  restartedMain] k.c.g.SpringProject4Application          : Started SpringProject4Application in 2.325 seconds (process running for 3.277)
+[2025-02-11 16:38:54.464]  INFO 9436 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 성공적으로 시작되었습니다.
+[2025-02-11 16:38:54.659]  INFO 9436 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-02-11 16:38:54.659]  INFO 9436 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+[2025-02-11 16:38:54.660]  INFO 9436 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms

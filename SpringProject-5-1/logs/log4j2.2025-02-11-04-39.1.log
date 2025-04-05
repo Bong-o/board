@@ -1,0 +1,4 @@
+[2025-02-11 16:39:06.640]  INFO 9436 --- [nio-8080-exec-4] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+[2025-02-11 16:39:06.651]  WARN 9436 --- [nio-8080-exec-4] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2025-02-11 16:39:06.954]  INFO 9436 --- [nio-8080-exec-4] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1ed91d9
+[2025-02-11 16:39:06.956]  INFO 9436 --- [nio-8080-exec-4] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.

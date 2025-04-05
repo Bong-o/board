@@ -1,0 +1,56 @@
+[2025-02-10 11:04:33.990]  INFO 14496 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2025-02-10 11:04:34.005]  INFO 14496 --- [       Thread-5] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+[2025-02-10 11:04:34.006]  INFO 14496 --- [tomcat-shutdown] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[2025-02-10 11:04:34.086]  INFO 14496 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+[2025-02-10 11:04:34.087]  INFO 14496 --- [       Thread-5] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[2025-02-10 11:04:39.612]  INFO 14496 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 시작중입니다.
+[2025-02-10 11:04:39.692]  INFO 14496 --- [  restartedMain] k.c.g.SpringProject4Application          : Starting SpringProject4Application using Java 17.0.12 with PID 14496 (C:\Dev\spring_work_sapce\SpringProject-4\bin\main started by GR802 in C:\Dev\spring_work_sapce\SpringProject-4)
+[2025-02-10 11:04:39.693]  INFO 14496 --- [  restartedMain] k.c.g.SpringProject4Application          : No active profile set, falling back to 1 default profile: "default"
+[2025-02-10 11:04:39.964]  WARN 14496 --- [  restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[kr.co.green]' package. Please check your configuration.
+[2025-02-10 11:04:40.019]  INFO 14496 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+[2025-02-10 11:04:40.020]  INFO 14496 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[2025-02-10 11:04:40.020]  INFO 14496 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[2025-02-10 11:04:40.021]  INFO 14496 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-02-10 11:04:40.035]  INFO 14496 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[2025-02-10 11:04:40.036]  INFO 14496 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 339 ms
+[2025-02-10 11:04:40.058]  WARN 14496 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2eec870e-5f05-42a7-b659-e64d21ab7e63
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-02-10 11:04:40.059]  INFO 14496 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-02-10 11:04:40.152]  INFO 14496 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[2025-02-10 11:04:40.159]  INFO 14496 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[2025-02-10 11:04:40.162]  INFO 14496 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+[2025-02-10 11:04:40.167]  INFO 14496 --- [  restartedMain] k.c.g.SpringProject4Application          : Started SpringProject4Application in 0.549 seconds (process running for 242.791)
+[2025-02-10 11:04:40.170]  INFO 14496 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+[2025-02-10 11:04:40.170]  INFO 14496 --- [  restartedMain] k.c.g.SpringProject4Application          : dmfdmmk
+[2025-02-10 11:04:58.963]  INFO 14496 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2025-02-10 11:04:58.966]  INFO 14496 --- [       Thread-7] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+[2025-02-10 11:04:58.967]  INFO 14496 --- [tomcat-shutdown] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[2025-02-10 11:04:59.044]  INFO 14496 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+[2025-02-10 11:04:59.044]  INFO 14496 --- [       Thread-7] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[2025-02-10 11:04:59.088]  INFO 14496 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 시작중입니다.
+[2025-02-10 11:04:59.132]  INFO 14496 --- [  restartedMain] k.c.g.SpringProject4Application          : Starting SpringProject4Application using Java 17.0.12 with PID 14496 (C:\Dev\spring_work_sapce\SpringProject-4\bin\main started by GR802 in C:\Dev\spring_work_sapce\SpringProject-4)
+[2025-02-10 11:04:59.133]  INFO 14496 --- [  restartedMain] k.c.g.SpringProject4Application          : No active profile set, falling back to 1 default profile: "default"
+[2025-02-10 11:04:59.299]  WARN 14496 --- [  restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[kr.co.green]' package. Please check your configuration.
+[2025-02-10 11:04:59.341]  INFO 14496 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+[2025-02-10 11:04:59.343]  INFO 14496 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[2025-02-10 11:04:59.343]  INFO 14496 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[2025-02-10 11:04:59.343]  INFO 14496 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-02-10 11:04:59.357]  INFO 14496 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[2025-02-10 11:04:59.357]  INFO 14496 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 221 ms
+[2025-02-10 11:04:59.379]  WARN 14496 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0e3a8fae-fa30-4af7-b080-bbbc744529f0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-02-10 11:04:59.380]  INFO 14496 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-02-10 11:04:59.504]  INFO 14496 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[2025-02-10 11:04:59.512]  INFO 14496 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[2025-02-10 11:04:59.515]  INFO 14496 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+[2025-02-10 11:04:59.523]  INFO 14496 --- [  restartedMain] k.c.g.SpringProject4Application          : Started SpringProject4Application in 0.431 seconds (process running for 262.146)
+[2025-02-10 11:04:59.526]  INFO 14496 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+[2025-02-10 11:04:59.527]  INFO 14496 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 성공적으로 시작되었습니다.

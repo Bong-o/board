@@ -1,0 +1,102 @@
+[2025-02-11 16:29:08.058]  INFO 12320 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2025-02-11 16:29:08.063]  INFO 12320 --- [      Thread-23] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+[2025-02-11 16:29:08.064]  INFO 12320 --- [tomcat-shutdown] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:29:08.139]  INFO 12320 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+[2025-02-11 16:29:08.140]  INFO 12320 --- [      Thread-23] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:29:08.178]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 시작중입니다.
+[2025-02-11 16:29:08.221]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : Starting SpringProject4Application using Java 17.0.12 with PID 12320 (C:\Dev\spring_work_sapce\SpringProject-4\bin\main started by GR802 in C:\Dev\spring_work_sapce\SpringProject-4)
+[2025-02-11 16:29:08.222]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : No active profile set, falling back to 1 default profile: "default"
+[2025-02-11 16:29:08.476]  INFO 12320 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+[2025-02-11 16:29:08.477]  INFO 12320 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:29:08.477]  INFO 12320 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[2025-02-11 16:29:08.478]  INFO 12320 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-02-11 16:29:08.492]  INFO 12320 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[2025-02-11 16:29:08.492]  INFO 12320 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 269 ms
+[2025-02-11 16:29:08.581]  WARN 12320 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f1457812-57aa-4066-a6da-2f45ce4ebd00
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-02-11 16:29:08.581]  INFO 12320 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-02-11 16:29:08.690]  INFO 12320 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[2025-02-11 16:29:08.697]  INFO 12320 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:29:08.700]  INFO 12320 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+[2025-02-11 16:29:08.705]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : Started SpringProject4Application in 0.524 seconds (process running for 1783.055)
+[2025-02-11 16:29:08.707]  INFO 12320 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+[2025-02-11 16:29:08.707]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 성공적으로 시작되었습니다.
+[2025-02-11 16:29:14.384]  INFO 12320 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2025-02-11 16:29:14.385]  INFO 12320 --- [      Thread-27] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+[2025-02-11 16:29:14.386]  INFO 12320 --- [tomcat-shutdown] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:29:14.444]  INFO 12320 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+[2025-02-11 16:29:14.444]  INFO 12320 --- [      Thread-27] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:29:14.499]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 시작중입니다.
+[2025-02-11 16:29:14.542]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : Starting SpringProject4Application using Java 17.0.12 with PID 12320 (C:\Dev\spring_work_sapce\SpringProject-4\bin\main started by GR802 in C:\Dev\spring_work_sapce\SpringProject-4)
+[2025-02-11 16:29:14.543]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : No active profile set, falling back to 1 default profile: "default"
+[2025-02-11 16:29:14.798]  INFO 12320 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+[2025-02-11 16:29:14.799]  INFO 12320 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:29:14.800]  INFO 12320 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[2025-02-11 16:29:14.800]  INFO 12320 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-02-11 16:29:14.814]  INFO 12320 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[2025-02-11 16:29:14.814]  INFO 12320 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 269 ms
+[2025-02-11 16:29:14.890]  WARN 12320 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 31f059a8-62a7-4a3e-8743-ea4e049678e6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-02-11 16:29:14.890]  INFO 12320 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-02-11 16:29:14.980]  INFO 12320 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[2025-02-11 16:29:14.987]  INFO 12320 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:29:14.990]  INFO 12320 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+[2025-02-11 16:29:14.996]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : Started SpringProject4Application in 0.493 seconds (process running for 1789.346)
+[2025-02-11 16:29:14.997]  INFO 12320 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+[2025-02-11 16:29:14.997]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 성공적으로 시작되었습니다.
+[2025-02-11 16:29:36.426]  INFO 12320 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2025-02-11 16:29:36.430]  INFO 12320 --- [      Thread-31] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+[2025-02-11 16:29:36.431]  INFO 12320 --- [tomcat-shutdown] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:29:36.513]  INFO 12320 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+[2025-02-11 16:29:36.514]  INFO 12320 --- [      Thread-31] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:29:36.551]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 시작중입니다.
+[2025-02-11 16:29:36.587]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : Starting SpringProject4Application using Java 17.0.12 with PID 12320 (C:\Dev\spring_work_sapce\SpringProject-4\bin\main started by GR802 in C:\Dev\spring_work_sapce\SpringProject-4)
+[2025-02-11 16:29:36.587]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : No active profile set, falling back to 1 default profile: "default"
+[2025-02-11 16:29:36.820]  INFO 12320 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+[2025-02-11 16:29:36.821]  INFO 12320 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:29:36.821]  INFO 12320 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[2025-02-11 16:29:36.821]  INFO 12320 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-02-11 16:29:36.834]  INFO 12320 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[2025-02-11 16:29:36.834]  INFO 12320 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 245 ms
+[2025-02-11 16:29:36.908]  WARN 12320 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d46abae1-2a6c-44a6-931f-49732c1cda7c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-02-11 16:29:36.909]  INFO 12320 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-02-11 16:29:36.995]  INFO 12320 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[2025-02-11 16:29:37.002]  INFO 12320 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:29:37.005]  INFO 12320 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+[2025-02-11 16:29:37.011]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : Started SpringProject4Application in 0.454 seconds (process running for 1811.362)
+[2025-02-11 16:29:37.012]  INFO 12320 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+[2025-02-11 16:29:37.012]  INFO 12320 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 성공적으로 시작되었습니다.
+[2025-02-11 16:29:48.198]  INFO 12320 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-02-11 16:29:48.198]  INFO 12320 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+[2025-02-11 16:29:48.199]  INFO 12320 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+[2025-02-11 16:29:48.203]  INFO 12320 --- [nio-8080-exec-1] k.c.g.f.RequestLoggingFilter             : 응답 시간 : 3
+[2025-02-11 16:29:48.204]  INFO 12320 --- [nio-8080-exec-1] k.c.g.f.RequestLoggingFilter             : 요청 정보 : method = GET,URL = http://localhost:8080/member/logout,headers=[host=localhost:8080,connection=keep-alive,sec-ch-ua="Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132",sec-ch-ua-mobile=?0,sec-ch-ua-platform="Windows",upgrade-insecure-requests=1,user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36,accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7,sec-fetch-site=same-origin,sec-fetch-mode=navigate,sec-fetch-user=?1,sec-fetch-dest=document,referer=http://localhost:8080/,accept-encoding=gzip, deflate, br, zstd,accept-language=ko-KR,ko;q=0.9,cookie=JSESSIONID=C7FBEFD04BF6A076ACF2288BDDE68FFD,]
+[2025-02-11 16:29:48.225]  INFO 12320 --- [nio-8080-exec-2] k.c.g.f.RequestLoggingFilter             : 응답 시간 : 18
+[2025-02-11 16:29:48.225]  INFO 12320 --- [nio-8080-exec-2] k.c.g.f.RequestLoggingFilter             : 요청 정보 : method = GET,URL = http://localhost:8080/,headers=[host=localhost:8080,connection=keep-alive,upgrade-insecure-requests=1,user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36,accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7,sec-fetch-site=same-origin,sec-fetch-mode=navigate,sec-fetch-user=?1,sec-fetch-dest=document,sec-ch-ua="Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132",sec-ch-ua-mobile=?0,sec-ch-ua-platform="Windows",referer=http://localhost:8080/,accept-encoding=gzip, deflate, br, zstd,accept-language=ko-KR,ko;q=0.9,cookie=JSESSIONID=C7FBEFD04BF6A076ACF2288BDDE68FFD,]
+[2025-02-11 16:29:48.238]  INFO 12320 --- [nio-8080-exec-3] k.c.g.f.RequestLoggingFilter             : 응답 시간 : 3
+[2025-02-11 16:29:48.238]  INFO 12320 --- [nio-8080-exec-3] k.c.g.f.RequestLoggingFilter             : 요청 정보 : method = GET,URL = http://localhost:8080/css/main.css,headers=[host=localhost:8080,connection=keep-alive,sec-ch-ua-platform="Windows",user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36,sec-ch-ua="Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132",sec-ch-ua-mobile=?0,accept=text/css,*/*;q=0.1,sec-fetch-site=same-origin,sec-fetch-mode=no-cors,sec-fetch-dest=style,referer=http://localhost:8080/,accept-encoding=gzip, deflate, br, zstd,accept-language=ko-KR,ko;q=0.9,cookie=JSESSIONID=A514EDEFACA1AF3DE5B149619B5B99FE,]
+[2025-02-11 16:29:48.254]  WARN 12320 --- [nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+[2025-02-11 16:29:48.256]  INFO 12320 --- [nio-8080-exec-4] k.c.g.f.RequestLoggingFilter             : 응답 시간 : 4
+[2025-02-11 16:29:48.257]  INFO 12320 --- [nio-8080-exec-4] k.c.g.f.RequestLoggingFilter             : 요청 정보 : method = GET,URL = http://localhost:8080/favicon.ico,headers=[host=localhost:8080,connection=keep-alive,sec-ch-ua-platform="Windows",user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36,sec-ch-ua="Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132",sec-ch-ua-mobile=?0,accept=image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8,sec-fetch-site=same-origin,sec-fetch-mode=no-cors,sec-fetch-dest=image,referer=http://localhost:8080/,accept-encoding=gzip, deflate, br, zstd,accept-language=ko-KR,ko;q=0.9,cookie=JSESSIONID=A514EDEFACA1AF3DE5B149619B5B99FE,]
+[2025-02-11 16:29:50.034]  INFO 12320 --- [nio-8080-exec-5] k.c.g.f.RequestLoggingFilter             : 응답 시간 : 4
+[2025-02-11 16:29:50.034]  INFO 12320 --- [nio-8080-exec-5] k.c.g.f.RequestLoggingFilter             : 요청 정보 : method = GET,URL = http://localhost:8080/member/signup/form,headers=[host=localhost:8080,connection=keep-alive,sec-ch-ua="Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132",sec-ch-ua-mobile=?0,sec-ch-ua-platform="Windows",upgrade-insecure-requests=1,user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36,accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7,sec-fetch-site=same-origin,sec-fetch-mode=navigate,sec-fetch-user=?1,sec-fetch-dest=document,referer=http://localhost:8080/,accept-encoding=gzip, deflate, br, zstd,accept-language=ko-KR,ko;q=0.9,cookie=JSESSIONID=A514EDEFACA1AF3DE5B149619B5B99FE,]
+[2025-02-11 16:29:50.045]  INFO 12320 --- [nio-8080-exec-7] k.c.g.f.RequestLoggingFilter             : 응답 시간 : 1
+[2025-02-11 16:29:50.045]  INFO 12320 --- [nio-8080-exec-6] k.c.g.f.RequestLoggingFilter             : 응답 시간 : 2
+[2025-02-11 16:29:50.045]  INFO 12320 --- [nio-8080-exec-7] k.c.g.f.RequestLoggingFilter             : 요청 정보 : method = GET,URL = http://localhost:8080/js/member/duplicationCheck.js,headers=[host=localhost:8080,connection=keep-alive,sec-ch-ua-platform="Windows",user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36,sec-ch-ua="Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132",sec-ch-ua-mobile=?0,accept=*/*,sec-fetch-site=same-origin,sec-fetch-mode=no-cors,sec-fetch-dest=script,referer=http://localhost:8080/member/signup/form,accept-encoding=gzip, deflate, br, zstd,accept-language=ko-KR,ko;q=0.9,cookie=JSESSIONID=A514EDEFACA1AF3DE5B149619B5B99FE,]
+[2025-02-11 16:29:50.045]  INFO 12320 --- [nio-8080-exec-6] k.c.g.f.RequestLoggingFilter             : 요청 정보 : method = GET,URL = http://localhost:8080/css/main.css,headers=[host=localhost:8080,connection=keep-alive,sec-ch-ua-platform="Windows",user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36,sec-ch-ua="Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132",sec-ch-ua-mobile=?0,accept=text/css,*/*;q=0.1,sec-fetch-site=same-origin,sec-fetch-mode=no-cors,sec-fetch-dest=style,referer=http://localhost:8080/member/signup/form,accept-encoding=gzip, deflate, br, zstd,accept-language=ko-KR,ko;q=0.9,cookie=JSESSIONID=A514EDEFACA1AF3DE5B149619B5B99FE,]
+[2025-02-11 16:29:50.056]  WARN 12320 --- [nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+[2025-02-11 16:29:50.057]  INFO 12320 --- [nio-8080-exec-8] k.c.g.f.RequestLoggingFilter             : 응답 시간 : 2
+[2025-02-11 16:29:50.058]  INFO 12320 --- [nio-8080-exec-8] k.c.g.f.RequestLoggingFilter             : 요청 정보 : method = GET,URL = http://localhost:8080/favicon.ico,headers=[host=localhost:8080,connection=keep-alive,sec-ch-ua-platform="Windows",user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36,sec-ch-ua="Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132",sec-ch-ua-mobile=?0,accept=image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8,sec-fetch-site=same-origin,sec-fetch-mode=no-cors,sec-fetch-dest=image,referer=http://localhost:8080/member/signup/form,accept-encoding=gzip, deflate, br, zstd,accept-language=ko-KR,ko;q=0.9,cookie=JSESSIONID=A514EDEFACA1AF3DE5B149619B5B99FE,]

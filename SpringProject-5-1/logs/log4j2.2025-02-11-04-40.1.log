@@ -1,0 +1,34 @@
+[2025-02-11 16:40:06.753]  INFO 9436 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2025-02-11 16:40:06.798]  INFO 9436 --- [       Thread-5] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+[2025-02-11 16:40:06.804]  INFO 9436 --- [tomcat-shutdown] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:40:36.916]  INFO 9436 --- [       Thread-5] o.s.c.s.DefaultLifecycleProcessor        : Shutdown phase 2147482623 ends with 1 bean still running after timeout of 30000ms: [webServerGracefulShutdown]
+[2025-02-11 16:40:36.917]  INFO 9436 --- [       Thread-5] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:40:36.929]  INFO 9436 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown aborted with one or more requests still active
+[2025-02-11 16:40:41.930]  WARN 9436 --- [       Thread-5] o.a.t.u.n.NioEndpoint                    : The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+[2025-02-11 16:40:41.935]  INFO 9436 --- [       Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+[2025-02-11 16:40:41.945]  INFO 9436 --- [       Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+[2025-02-11 16:40:44.210]  INFO 9436 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 시작중입니다.
+[2025-02-11 16:40:44.271]  INFO 9436 --- [  restartedMain] k.c.g.SpringProject4Application          : Starting SpringProject4Application using Java 17.0.12 with PID 9436 (C:\Dev\spring_work_sapce\SpringProject-4\bin\main started by GR802 in C:\Dev\spring_work_sapce\SpringProject-4)
+[2025-02-11 16:40:44.272]  INFO 9436 --- [  restartedMain] k.c.g.SpringProject4Application          : No active profile set, falling back to 1 default profile: "default"
+[2025-02-11 16:40:44.644]  INFO 9436 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+[2025-02-11 16:40:44.646]  INFO 9436 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:40:44.647]  INFO 9436 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[2025-02-11 16:40:44.647]  INFO 9436 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-02-11 16:40:44.667]  INFO 9436 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[2025-02-11 16:40:44.667]  INFO 9436 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 392 ms
+[2025-02-11 16:40:44.796]  WARN 9436 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0d2cf911-6012-4f59-87ab-5573b50f9222
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-02-11 16:40:44.797]  INFO 9436 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-02-11 16:40:45.007]  INFO 9436 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[2025-02-11 16:40:45.021]  INFO 9436 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:40:45.024]  INFO 9436 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+[2025-02-11 16:40:45.031]  INFO 9436 --- [  restartedMain] k.c.g.SpringProject4Application          : Started SpringProject4Application in 0.817 seconds (process running for 113.846)
+[2025-02-11 16:40:45.033]  INFO 9436 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+[2025-02-11 16:40:45.033]  INFO 9436 --- [  restartedMain] k.c.g.SpringProject4Application          : 스프링 프로젝트가 성공적으로 시작되었습니다.
+[2025-02-11 16:40:45.059]  INFO 9436 --- [nio-8080-exec-3] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-02-11 16:40:45.060]  INFO 9436 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+[2025-02-11 16:40:45.061]  INFO 9436 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms

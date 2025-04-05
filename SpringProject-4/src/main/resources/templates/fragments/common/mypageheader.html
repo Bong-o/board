@@ -1,0 +1,19 @@
+<div class="header-Div" th:fragment="MypageHeaderFragment">
+    <header>
+        <h1><a class="header-a" th:href="@{/game/main/form}">THE RANK</a></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a th:href="@{/game/mypageForm}" th:if="${session.userId != null}">내프로필</a></li>
+            <li><a th:href="@{/game/mypageUpdateForm}" th:if="${session.userId != null}">내정보변경</a></li>
+            <li><a th:href="@{/game/mypageQuery}" th:if="${session.userId != null}">내문의사항</a></li>
+        </ul>
+        <div class="auth-links">
+            <a th:href="@{/game/logininForm}" th:if="${session.userId ==null}">로그인</a>
+            <a th:href="@{/game/loginupForm}" th:if="${session.userId ==null}">회원가입</a>
+            <a th:href="@{/game/logout}" th:if="${session.userId != null}">로그아웃</a>
+            <a th:href="@{/game/mypageForm}" th:if="${session.userId != null}">마이페이지</a>
+            <a th:href="@{/game/admin/form}" th:if="${session.role == 'admin'}">ADMIN</a>
+        </div>
+    </nav>
+</div>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내문의사항</title>
+    <link rel="stylesheet" href="../css/mypageInquiry.css">
+</head>
+<body>
+<div th:replace="~{fragments/common/mypageheader :: MypageHeaderFragment}"></div>
+    <main>
+        <h2>내 문의 내역</h2>
+        <div class="table-container">
+			<table>
+				<tr>
+                    <th>글번호</th>
+                    <th>제목</th>
+                    <th>작성일</th>
+                    <th>답변</th>
+                </tr>
+                <!--
+                	게시글 번호구할때 pi.row - stat~.index
+                	반복문 돌때마다 0부터 1씩 증가
+                -->
+                <th:block th:each="lists, iterStat :${list}">
+					<tr>
+	                    <td th:text="${count-iterStat.index}"></td>
+	                    <td th:text="${lists.contactTitle}"></td>
+	                    <td th:text="${lists.createDate}"></td>
+	                    <td><button class="show-table-btn" th:id="'btn-status-' + ${iterStat.index}" th:onclick="toggleDetails([[${iterStat.index}]])">▼</button></td>
+	                </tr>
+	                <tr th:id="'detailed-row-' + ${iterStat.index}" style="display:none;">
+	                    <td colspan="4">
+	                        <div id="detailed-section-1" class="detailed-section">
+	                            <h3>상세 내용</h3>
+	                            <table>
+	                                <tr>
+	                                    <th>제목</th>
+	                                    <td th:text="${lists.contactTitle}"></td>
+	                                </tr>
+	                                <tr>
+	                                    <th>내용</th>
+	                                    <td th:text="${lists.contactInfo}"></td>
+	                                </tr>
+	                                <tr th:if="${lists.answer != null}">
+	                                	<th>답변</th>
+	                                    <td th:text="${lists.answer}"></td> 
+	                                </tr>
+	                            </table>
+	                        </div>
+	                    </td>
+	                </tr>
+                </th:block>
+			</table>
+        </div>    
+    </main>
+    <footer th:replace="~{fragments/common/footer :: FooterFragment}"></footer>
+    <script src="/js/mypageInquiry.js"></script>
+</body>
+</html>

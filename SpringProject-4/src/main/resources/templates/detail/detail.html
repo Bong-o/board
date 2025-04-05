@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>THE RANK</title>
+        <link rel="stylesheet" th:href="@{/css/header.css}">
+        <link rel="stylesheet" th:href="@{/css/detail.css}">
+        <style>
+        main{
+        text-align : left
+        }
+        </style>
+    </head>
+    <body>
+    <div th:replace="~{fragments/common/header :: HeaderFragment}"></div>
+    <main >
+    <div class="container">
+            <div class="game-header">
+                <div>
+                    <h1 th:text=${game.gameName}></h1>
+                    <ul class="game-details">
+                        <li ><strong>장르:</strong><span th:text="${game.firstGenre}"></span></li>
+                        <li ><strong>제작사:</strong><span th:text="${game.publisher}"></span></li>
+                        <li ><strong>출시년도:</strong><span th:text="${game.releaseDate}"></span></li>
+                    </ul>
+                </div>
+                <div>
+                    <img th:src="@{{resourcesPath}/{folderNamePath}/{changeName}
+							   (resourcesPath=${game.fileDTO.RESOURCES_PATH},
+								folderNamePath=${game.fileDTO.folderNamePath},
+								changeName=${game.fileDTO.changeName})}" alt="Game Image" class="game-image">
+                </div>
+            </div>
+    
+            <div class="tabs">
+                <ul>
+                    <li class="tab active" onclick="showTab('detail',event)">주요정보</li>
+                    <li class="tab" onclick="showTab('movie',event)">동영상</li>
+                    
+                    
+                </ul>
+                <div id="detail" class="tab-content active-content">
+                    <h2>게임소개</h2>
+                    <p th:text=${game.gameDetailDTO.gameDetail}></p>
+                </div>
+                <div id="movie" class="tab-content">
+                	<h2>동영상</h2>
+                	<iframe width="800" height="500" th:src="${game.gameDetailDTO.gameTrailer}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer th:replace="~{fragments/common/footer :: FooterFragment}"></footer>
+</body>
+<script>
+function showTab(tabId,event) {
+            var tabs = document.getElementsByClassName('tab-content');
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove('active-content');
+            }
+            document.getElementById(tabId).classList.add('active-content');
+
+            var tabButtons = document.getElementsByClassName('tab');
+            for (var i = 0; i < tabButtons.length; i++) {
+                tabButtons[i].classList.remove('active');
+            }
+            event.target.classList.add('active');
+        }
+</script>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Page</title>
+    <link rel="stylesheet" th:href="@{/css/header.css}">
+    <link rel="stylesheet" th:href="@{/css/faq.css}">
+</head>
+<body>
+<div th:replace="~{fragments/common/header :: HeaderFragment}"></div>
+    <main>
+    <!-- ...existing code... -->
+    <div class="search-container">
+        <div class="faq-container">
+        <h3>자주 묻는 질문</h3>
+        <p>자주 문의하시는 내용을 모았습니다. <br>
+           원하는 답변이 없다면 1:1 문의를 이용해 주세요.</p>
+        </div>
+        <div class="faq-search">
+            <p>궁금한 내용의 
+                <b>키워드를 입력</b>
+                하세요</p>
+        	<form class="faq-input" id="faqForm" action="/game/faqInfo/form" method="get">
+            	<input class="input-text" type="text" placeholder="질문 검색" name="searchText"
+            	 	   th:value="${faqSearchDTO.searchText}">
+            	<input class="input-btn" type="image" th:src="@{/img/검색버튼.png}" onclick="submitForm()"></input>
+            </form>      
+        </div>
+        <div class="list-div">
+        <dl class="faq-list">
+        	<div th:if="${errorMessage}" class="alert-warning">
+	    		<span th:text="${errorMessage}"></span>
+			</div> 
+        	<th:block th:each="post:${posts}">
+	            <dt class="faq-question">
+	                <strong class="faq-icon" th:style="'background-image:url('+@{/img/Q.png}+');'"
+	                		th:text="${post.faqCategory}"></strong> 
+	                <a th:text="${post.faqTitle}"></a>
+	                <p class="faq-btn">▽</p>
+	            </dt>
+	            <dd class="faq-answer" th:style="'background-image:url('+@{/img/A.png}+');'">
+	                <div>
+	                    <p>
+	                    <span th:text="${post.faqInfo}"></span>
+	                    </p>
+	                </div>
+	            </dd>
+            </th:block>
+        </dl>
+    </div>
+    </div>   
+    </main>
+<footer th:replace="~{fragments/common/footer :: FooterFragment}"></footer>  
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const questions = document.querySelectorAll(".faq-question");
+
+    questions.forEach((question) => {
+        question.addEventListener("click", function () {
+            const answer = this.nextElementSibling; // Get the corresponding <dd>
+            const btn = this.querySelector(".faq-btn"); // Correctly select the button
+            const isVisible = answer.style.display === "block";
+
+            // Toggle display
+            if (isVisible) {
+                answer.style.display = "none"; // Hide the answer
+                btn.textContent = "▽"; // Update button text
+            } else {
+                answer.style.display = "block"; // Show the answer
+                btn.textContent = "△"; // Update button text
+            }
+        });
+    });
+});
+ function submitForm() {
+        document.getElementById('faqForm').submit();
+    }
+</script>
+</body>
+</html>

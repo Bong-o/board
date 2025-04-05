@@ -1,0 +1,6 @@
+[2025-02-11 16:56:24.206]  INFO 9436 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2025-02-11 16:56:24.275]  INFO 9436 --- [      Thread-13] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+[2025-02-11 16:56:24.367]  INFO 9436 --- [tomcat-shutdown] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:56:55.505]  INFO 9436 --- [      Thread-13] o.s.c.s.DefaultLifecycleProcessor        : Shutdown phase 2147482623 ends with 1 bean still running after timeout of 30000ms: [webServerGracefulShutdown]
+[2025-02-11 16:56:55.507]  INFO 9436 --- [      Thread-13] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[2025-02-11 16:56:55.672]  INFO 9436 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown aborted with one or more requests still active

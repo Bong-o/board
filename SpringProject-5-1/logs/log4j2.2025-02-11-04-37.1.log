@@ -1,0 +1,3 @@
+[2025-02-11 16:37:54.334]  INFO 6136 --- [n(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2025-02-11 16:37:54.341]  INFO 6136 --- [n(10)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+[2025-02-11 16:37:54.350]  INFO 6136 --- [tomcat-shutdown] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]

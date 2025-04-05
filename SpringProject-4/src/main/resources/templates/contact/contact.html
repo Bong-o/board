@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문의사항 작성</title>
+    <link rel="stylesheet" th:href="@{/css/header.css}">
+    <link rel="stylesheet" th:href="@{/css/contact.css}">
+</head>
+<body>
+<div th:replace="~{fragments/common/header :: HeaderFragment}"></div>
+    <main>
+    <div class="search-container">
+        <h2>1:1문의하기</h2>
+        <form class="contact-form" th:action="@{/game/contact/enroll}" method="post">
+    <div class="form-group">
+        <label for="category_no">카테고리</label>
+    	<select id="category_no" name="categoryNo" class="styled-select" required>
+       	 	<option value="" disabled selected>카테고리를 선택하세요</option>
+			 <option th:each="category:${category}" th:value="${category.categoryNo}"
+			 		 th:text="${category.faqcategory}"></option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="contactTitle">제목</label>
+        <input type="text" id="contact_title" name="contactTitle" th:value="${contactTitle}"
+               placeholder="문의 제목을 입력하세요" maxlength="50" required>
+    </div>
+    <div class="form-group">
+        <label for="contactInfo">내용</label>
+        <textarea id="contact_info" name="contactInfo" th:text="${contactInfo}"
+                  placeholder="문의 내용을 입력하세요" required></textarea>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="문의하기">
+    </div>
+</form>
+
+    </div>
+    </main>
+<footer th:replace="~{fragments/common/footer :: FooterFragment}"></footer>  
+</body>
+</html>

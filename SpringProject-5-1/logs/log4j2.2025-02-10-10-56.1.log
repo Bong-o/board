@@ -1,0 +1,5 @@
+[2025-02-10 10:56:34.804]  INFO 13004 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2025-02-10 10:56:34.822]  INFO 13004 --- [      Thread-19] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+[2025-02-10 10:56:34.824]  INFO 13004 --- [tomcat-shutdown] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+[2025-02-10 10:56:34.904]  INFO 13004 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+[2025-02-10 10:56:34.904]  INFO 13004 --- [      Thread-19] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
